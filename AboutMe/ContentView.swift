@@ -10,15 +10,28 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            
+            Text("Rithika")
+                .font(.largeTitle)
+                .foregroundColor(Color.white)
+                .background(.black)
+            Image("flowers")
+                .resizable(resizingMode: .stretch)
+                .aspectRatio(contentMode: .fit)
+                
+            //name
+            //representative image
+            //use of color to tell story
         }
+        
         .padding()
     }
+    
 }
+ 
+
 
 #Preview {
     ContentView()
+        
 }
